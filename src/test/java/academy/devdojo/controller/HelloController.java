@@ -10,6 +10,7 @@ public class HelloController {
 
     @GetMapping
     public  String hi(){
+
         return "olá amigo";
     }
 }
